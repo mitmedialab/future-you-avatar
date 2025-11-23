@@ -1,0 +1,78 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="16.5" cy="16.5" r="16.5" fill="url(#clock_gradient)"/>
+<g transform="translate(16.5,16.5)">
+  <g>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(0)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(30)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(60)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(90)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(120)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(150)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(180)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(210)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(240)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(270)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(300)" fill="white"/>
+    <rect x="-0.71739" y="12" width="1.43478" height="2.86957" transform="rotate(330)" fill="white"/>
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 0 0"
+      to="-360 0 0"
+      dur="20s"
+      repeatCount="indefinite" />
+  </g>
+</g>
+<g transform="translate(16.5,16.5) rotate(60)">
+  <rect x="-0.71739" y="-0.71739" width="1.43478" height="7.29818" fill="white">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 0 0"
+      to="360 0 0"
+      dur="2s"
+      repeatCount="indefinite" />
+  </rect>
+  <!-- <rect x="-0.71739" width="1.43478" height="7.29818" fill="red"/> -->
+</g>
+<g transform="translate(16.5,16.5) rotate(-53)">
+  <rect x="-0.71739" y="-0.71739" width="1.43478" height="13.7504" fill="white">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 0 0"
+      to="360 0 0"
+      dur="1s"
+      repeatCount="indefinite" />
+  </rect>
+  <!-- <rect x="-0.71739" width="1.43478" height="7.29818" fill="red"/> -->
+</g>
+<defs>
+<linearGradient id="text_gradient" x1="-1.37354" y1="16.5" x2="284.626" y2="16.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FA00D4">
+  <animate 
+    attributeName="stop-color"
+    values="#FA00D4;#0500FE;#FA00D4" 
+    dur="5s" 
+    repeatCount="indefinite" 
+    />
+</stop>
+
+<stop offset="1" stop-color="#0500FE">
+  <animate 
+    attributeName="stop-color"
+    values="#0500FE;#FA00D4;#0500FE" 
+    dur="5s" 
+    repeatCount="indefinite" 
+    />
+</stop>
+</linearGradient>
+<linearGradient id="clock_gradient" x1="239.126" y1="0" x2="239.126" y2="33" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0C00FD"/>
+<stop offset="1" stop-color="#F401CE"/>
+</linearGradient>
+</defs>
+</svg>

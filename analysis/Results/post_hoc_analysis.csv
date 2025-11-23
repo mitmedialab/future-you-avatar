@@ -1,0 +1,42 @@
+
+Post-hoc analysis for FSQ_Vividness:
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+======================================================
+ group1  group2 meandiff p-adj   lower   upper  reject
+------------------------------------------------------
+ avatar control  -1.1159 0.0013 -1.8754 -0.3564   True
+ avatar    text  -0.2464 0.8306 -1.0059  0.5131  False
+ avatar   voice  -0.4058 0.5032 -1.1653  0.3537  False
+control    text   0.8696 0.0182  0.1101  1.6291   True
+control   voice   0.7101 0.0755 -0.0494  1.4697  False
+   text   voice  -0.1594 0.9464 -0.9189  0.6001  False
+------------------------------------------------------
+--------------------------------------------------
+
+Post-hoc analysis for FSQ_Positivity:
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+=====================================================
+ group1  group2 meandiff p-adj   lower  upper  reject
+-----------------------------------------------------
+ avatar control  -0.7971 0.0792 -1.6568 0.0626  False
+ avatar    text  -0.2319 0.8943 -1.0916 0.6279  False
+ avatar   voice    0.058  0.998 -0.8018 0.9177  False
+control    text   0.5652 0.3187 -0.2945  1.425  False
+control   voice   0.8551 0.0518 -0.0047 1.7148  False
+   text   voice   0.2899 0.8137 -0.5699 1.1496  False
+-----------------------------------------------------
+--------------------------------------------------
+
+Post-hoc analysis for Future_self_continuity:
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+=====================================================
+ group1  group2 meandiff p-adj   lower  upper  reject
+-----------------------------------------------------
+ avatar control  -0.7319 0.0122 -1.3427 -0.121   True
+ avatar    text  -0.2065 0.8124 -0.8174 0.4043  False
+ avatar   voice  -0.0797 0.9862 -0.6906 0.5311  False
+control    text   0.5254 0.1174 -0.0855 1.1362  False
+control   voice   0.6522 0.0317  0.0413  1.263   True
+   text   voice   0.1268  0.948  -0.484 0.7377  False
+-----------------------------------------------------
+--------------------------------------------------

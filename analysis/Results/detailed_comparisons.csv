@@ -1,0 +1,10 @@
+Measure,Comparison,Mean Diff.,Cohen's d,Effect Size,p-value
+FSQ_Vividness,avatar vs control,1.12,1.19,Large,0.000***
+FSQ_Vividness,text vs control,0.87,1.01,Large,0.001**
+FSQ_Vividness,voice vs control,0.71,0.85,Large,0.006**
+FSQ_Positivity,avatar vs control,0.80,0.67,Medium,0.027*
+FSQ_Positivity,text vs control,0.57,0.60,Medium,0.049*
+FSQ_Positivity,voice vs control,0.86,0.92,Large,0.003**
+Future_self_continuity,avatar vs control,0.73,0.91,Large,0.004**
+Future_self_continuity,text vs control,0.53,0.76,Medium,0.013*
+Future_self_continuity,voice vs control,0.65,0.97,Large,0.002**
